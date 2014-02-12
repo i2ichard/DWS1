@@ -4,12 +4,14 @@ body{
 h1, h2{
 	color: rgb(166,162,109);
 }
-a, sup{
+a,{
 	color: #191970;
 }
 p, ol{
 	color: DarkSlateGray;
 }
 ol{
-	background-color: Wheat;
+	background-color: hsl(10, 46%, 72%);
+	opacity: 0.5;
+	font-style: italic;
 }
