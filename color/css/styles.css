@@ -1,0 +1,15 @@
+body{
+	background-color: #43734A;
+}
+h1, h2{
+	color: rgb(166,162,109);
+}
+a, sup{
+	color: #191970;
+}
+p, ol{
+	color: DarkSlateGray;
+}
+ol{
+	background-color: Wheat;
+}
