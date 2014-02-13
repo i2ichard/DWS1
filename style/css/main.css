@@ -2,33 +2,54 @@ body{
 	background-color: #43734A;
 }
 h1{
+	/*---the line underneath is in shorthand---*/
 	font: normal normal bold 32pt/1 Nova Flat;
 	color: rgb(166,162,109);
-	/*font-family: 'Nova Flat', cursive;*/
 	text-shadow: -1px 1px 3px #000000;
-	/*font-size: 250%;*/
 	text-align: center;
 	text-transform: uppercase;
 }
-h2{
+h2{	
+	/*---color is represented in RGB format and is underlined---*/
 	color: rgb(166,162,109);
 	font-family: 'Nova Flat', cursive;
 	text-shadow:-1px 1px 3px #000;
 	text-decoration: underline;	
 }
-blockquote{
+.quote{	
+	/*---class selector used to changed the quote styling---*/
 	font-weight: normal;
 	font-style: italic;
+	color: white;
 }
-a{
+
+	/*---These are the CSS pseudo-classes---*/
+a:link{
 	color: #191970;
+	text-decoration: none;
 }
-p, ol{
+a:visited{
+	color: ForestGreen;
+}
+a:hover{
+	color: DarkCyan;
+	text-decoration: underline;
+}
+a:active{
+	color: black;
+}
+.content{
+	font: normal normal normal 14pt/1 Istok Web;
+	color: DarkSlateGray;
+}
+ol{
+	/*---The Google web font "Istok Web" is applied here---*/
 	color: DarkSlateGray;
 	font-family: 'Istok Web', sans-serif;
 }
 ol{
-	background-color: hsl(10, 46%, 72%);
-	opacity: 0.5;
+	/*---color is selected using the HSL format here---*/
+	background-color: hsl(19, 46%, 72%);
+	opacity: 0.4;
 	font-style: italic;
 }
