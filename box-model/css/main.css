@@ -1,0 +1,77 @@
+body{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #4A5154;
+}
+#head  li{
+	list-style-type: lower-roman;
+	display: inline;
+	margin: 1em;
+}
+#head {
+	background-color: #43734A;
+	padding: 5px;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3D4950;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+	box-shadow: -2px 1px 4px #95B27F;
+}
+h1{
+	/*---the line underneath is in shorthand---*/
+	font: normal normal bold 32pt/1 Nova Flat;
+	color: rgb(166,162,109);
+	text-shadow: -1px 1px 3px #000000;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body {
+	background-color: #43734A;
+	padding: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3D4950;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+}
+h2{	
+	/*---color is represented in RGB format and is underlined---*/
+	color: rgb(166,162,109);
+	font-family: 'Nova Flat', cursive;
+	text-shadow:-1px 1px 3px #000;
+	text-decoration: underline;	
+}
+.quote{	
+	/*---class selector used to changed the quote styling---*/
+	font-weight: normal;
+	font-style: italic;
+	color: white;
+}
+
+	/*---These are the CSS pseudo-classes---*/
+a:link{
+	color: #191970;
+	text-decoration: none;
+}
+a:visited{
+	color: ForestGreen;
+}
+a:hover{
+	color: DarkCyan;
+	text-decoration: underline;
+}
+a:active{
+	color: black;
+}
+ol{
+	/*---The Google web font "Istok Web" is applied here---*/
+	color: DarkSlateGray;
+	font-family: 'Istok Web', sans-serif;
+}
+ol{
+	/*---color is selected using the HSL format here---*/
+	font-style: italic;
+	list-style-type: lower-roman;
+}
